@@ -1,9 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <title>AI Music Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Music Page - Rap Vibes</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #1a1a1a;
+            color: #ffffff;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background: #262626;
+            font-size: 1.8rem;
+            font-weight: bold;
+            border-bottom: 3px solid #00ffcc;
+        }
+        main {
+            text-align: center;
+            padding: 40px;
+        }
+        audio {
+            margin-top: 20px;
+            border: 3px solid #00ffcc;
+            border-radius: 5px;
+        }
+        .description {
+            margin: 20px auto;
+            font-size: 1.2rem;
+            color: #aaaaaa;
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the AI Music Page!</h1>
+    <header>
+        🎤 Welcome to AI Music - Rap Vibes 🎶
+    </header>
+    <main>
+        <p class="description">
+            ヒップホップのビートを感じてみよう。ここではAIに選ばれた「イケてる」ラップナンバーを紹介しています。
+        </p>
+        <audio controls>
+            <source src="music.mp3" type="audio/mpeg">
+            ご使用のブラウザでは audio タグがサポートされていません。
+        </audio>
+    </main>
 </body>
 </html>

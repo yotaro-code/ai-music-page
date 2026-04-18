@@ -23,11 +23,24 @@
             text-align: center;
             padding: 40px;
         }
+
+        /* 👇 ここ追加 */
+        .cover {
+            width: 100%;
+            max-width: 350px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+        }
+
         audio {
             margin-top: 20px;
             border: 3px solid #00ffcc;
             border-radius: 5px;
+            width: 100%;
+            max-width: 350px;
         }
+
         .description {
             margin: 20px auto;
             font-size: 1.2rem;
@@ -44,6 +57,10 @@
         <p class="description">
             ヒップホップのビートを感じてみよう。ここではAIに選ばれた「イケてる」ラップナンバーを紹介しています。
         </p>
+
+        <!-- 👇 ここ追加 -->
+        <img src="98BDFF15-F549-44CC-AA40-CC05580BD971.png" class="cover">
+
         <audio controls>
             <source src="music.mp3" type="audio/mpeg">
             ご使用のブラウザでは audio タグがサポートされていません。
